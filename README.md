@@ -3,7 +3,7 @@ BME AUT University project
 <b>Ambient lighting</b>
 
 Task: \
-Create an additional hardware unit for the STM32 NUCLEO-F446RE kit, which is programmable mood lighting with three high brightness RGB LEDs. \
+Create an additional hardware unit for the STM32 NUCLEO-F446RE kit, which is programmable mood lighting with three high brightness RGB LEDs.
 
 Requirements: \
 &nbsp;&nbsp;&nbsp;&nbsp;-The executable lighting programs should be editable on PC, the hardware should communicate with PC via serial port. The serial
