@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LEDMoodlightning.Animations">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAIAQAAAAEIAAABAAAAAIIAAA=</HashCode>
+      <FileName>Animations.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="views" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LEDMoodlightning.App">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIQAQECAQAAAgAAAQAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActiveAnimation" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="animationlist" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LEDMoodlightning.AnimView">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAACAAIACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnimView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="animation" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="LEDMoodlightning.IView">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
